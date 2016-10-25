@@ -1,0 +1,8 @@
+nasm -f elf -F dwarf -g loop.asm
+ld -m elf_i386 -o loop loop.o
+gdb ./loop
+break _start
+run
+
+
+http://www.csee.umbc.edu/~cpatel2/links/310/nasm/gdb_help.shtml

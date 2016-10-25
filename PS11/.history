@@ -1,0 +1,140 @@
+#+1476726851
+vim
+#+1476726872
+vim touch hello.asm
+#+1476727002
+rename touch hello.asm
+#+1476727011
+mv touch hello.asm
+#+1476727148
+vi hello.asm
+#+1476727168
+nasm -f elf64 hello.asm
+#+1476896484
+cat hello.asm
+#+1476896541
+mkdri hello
+#+1476896563
+rm hello
+#+1476896566
+mkdir hello
+#+1476896576
+mv hello.asm hello/hello.asm
+#+1476896585
+mv hello.o hello/hello.o
+#+1476896589
+cd hello
+#+1476896600
+ld hello.o -o hello
+#+1476896603
+hello
+#+1476896743
+vim makefile
+#+1476897051
+make
+#+1476897086
+cat
+#+1476897581
+clear
+#+1476897664
+rm hello && hello.o
+#+1476897671
+rm hello.o
+#+1476897674
+ls 0al
+#+1476897676
+ls -al
+#+1476897699
+; s
+#+1476897788
+./hello
+#+1476897853
+make hello
+#+1476898034
+cp hello prompt
+#+1476898041
+cp ./hello ./prompt
+#+1476898107
+mkdir prompt
+#+1476898152
+cp ../hello/hello.asm
+#+1476898161
+cp ../hello/hello.asm prompt.asm
+#+1476898811
+cp ../hello/makefile makefile
+#+1476898814
+vi makefile
+#+1476898851
+cat prompt
+#+1476898855
+cat makefile
+#+1476898879
+make prompt.o
+#+1476898955
+prompt
+#+1476899853
+re awesome!
+#+1476899859
+me
+#+1476899870
+lkasjdf
+#+1476900273
+ld prompt.o -o prompt
+#+1476900275
+./prompt
+#+1476901878
+nasm -f elf64 prompt.asm
+#+1476901881
+vi prompt.asm
+#+1477147591
+cd prompt
+#+1477151669
+cd prompt/
+#+1477151796
+mv prompt.asm loop.asm
+#+1477151804
+rm prompt
+#+1477151833
+mv loop.asm prompt.asm
+#+1477151835
+make prompt
+#+1477163024
+gdb
+#+1477181126
+cd ..
+#+1477181150
+root
+#+1477181152
+pwd
+#+1477181442
+cd
+#+1477183635
+cd ../
+#+1477183664
+ld -m elf_i386 -o luck luck.
+#+1477183687
+nasm -f elf -F dwarf -g luck.asm
+#+1477183687
+ld -m elf_i386 -o luck luck.o
+#+1477183712
+./luck
+#+1477183806
+cd lab_1/
+#+1477183987
+ls
+#+1477185225
+exec /export/home/students/c2410a/c2410a02/lab_1/./loop
+#+1477185225
+nasm -f elf -F dwarf -g loop.asm
+#+1477185225
+ld -m elf_i386 -o loop loop.o
+#+1477185225
+gdb ./loop
+#+1477190192
+make loop
+#+1477190193
+./loop
+#+1477190362
+users
+#+1477190365
+exit
